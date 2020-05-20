@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
-
+import React from 'react'; // ladowanie react do pliku js
+import ReactDOM from 'react-dom'; // laduje biblioteke react dom
+import './index.css'; // css laduje
+import App from './App'; // laduje app.js
+// import * as serviceWorker from './serviceWorker';
+// wyswietla tresc na ekranie 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode> 
     <App />
   </React.StrictMode>,
   document.getElementById('root')
